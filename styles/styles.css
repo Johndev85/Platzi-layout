@@ -166,7 +166,7 @@ p {
 }
 
 .social {
-    padding: 5px;
+    padding: 15px 0;
 }
 
 .social span {
@@ -176,12 +176,14 @@ p {
 .SocialLinks {
     display: flex;
     justify-content: left;
+    padding: 15px 0;
 }
 
 .SocialLinks img {
     margin: 5px;
     width: 30px;
     margin: 0 .5rem;
+    cursor: pointer;
 }
 
 .Categories {
@@ -245,6 +247,30 @@ p {
     width: 80px;
     margin-right: 15px;
 }
+
+.ContainerMid {
+    display: grid;
+    grid-template: 80px / 40% 70%;
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(to right, #1d3643, #1d3d4e, #1e4459, #1e4c65, #1e5371);
+    color: white;
+}
+
+.ContainerMid .SubcriForm {
+    display: grid;
+    grid-template: 50px / 70% 30%;
+}
+
+.ContainerMid .SubcriForm input {
+    background-color: transparent;
+    color: #766a57;
+}
+
+.ContainerMid .SubcriForm .btn {
+    justify-items: center;
+}
+
 
 
 
